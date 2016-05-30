@@ -7,16 +7,19 @@
 //
 
 #import "AppDelegate.h"
-
+#import "SecondViewController.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
+@synthesize data;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+   data=[[NSMutableArray alloc]init];
+        
+    
     return YES;
 }
 

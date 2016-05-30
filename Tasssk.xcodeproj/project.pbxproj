@@ -15,6 +15,7 @@
 		4CE55E6F1CF72F4B00DDC3EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE55E6D1CF72F4B00DDC3EA /* LaunchScreen.storyboard */; };
 		4CE55E7A1CF72F4B00DDC3EA /* TassskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE55E791CF72F4B00DDC3EA /* TassskTests.m */; };
 		4CE55E851CF72F4B00DDC3EA /* TassskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE55E841CF72F4B00DDC3EA /* TassskUITests.m */; };
+		4CE55E941CF72FE000DDC3EA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE55E931CF72FE000DDC3EA /* SecondViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4CE55E801CF72F4B00DDC3EA /* TassskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TassskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE55E841CF72F4B00DDC3EA /* TassskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TassskUITests.m; sourceTree = "<group>"; };
 		4CE55E861CF72F4B00DDC3EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CE55E921CF72FE000DDC3EA /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4CE55E931CF72FE000DDC3EA /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				4CE55E6D1CF72F4B00DDC3EA /* LaunchScreen.storyboard */,
 				4CE55E701CF72F4B00DDC3EA /* Info.plist */,
 				4CE55E5F1CF72F4B00DDC3EA /* Supporting Files */,
+				4CE55E921CF72FE000DDC3EA /* SecondViewController.h */,
+				4CE55E931CF72FE000DDC3EA /* SecondViewController.m */,
 			);
 			path = Tasssk;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CE55E941CF72FE000DDC3EA /* SecondViewController.m in Sources */,
 				4CE55E671CF72F4B00DDC3EA /* ViewController.m in Sources */,
 				4CE55E641CF72F4B00DDC3EA /* AppDelegate.m in Sources */,
 				4CE55E611CF72F4B00DDC3EA /* main.m in Sources */,
@@ -498,6 +504,7 @@
 				4CE55E8B1CF72F4B00DDC3EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CE55E8C1CF72F4B00DDC3EA /* Build configuration list for PBXNativeTarget "TassskTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				4CE55E8E1CF72F4B00DDC3EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CE55E8F1CF72F4B00DDC3EA /* Build configuration list for PBXNativeTarget "TassskUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				4CE55E911CF72F4B00DDC3EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
